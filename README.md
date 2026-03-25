@@ -239,7 +239,22 @@ HOP 25  — 45.33.32.156      (scanme.nmap.org — USA)
 6. **Documentation is critical** — every scan saved with `-oN` for professional reporting
 
 ---
+## ⚡ Key Commands Used
 
+- Host Discovery:
+  nmap -sn scanme.nmap.org
+
+- SYN Scan:
+  nmap -sS scanme.nmap.org
+
+- Version Detection:
+  nmap -sV scanme.nmap.org
+
+- OS Detection:
+  nmap -O scanme.nmap.org
+
+- Full Scan:
+  nmap -A -p- scanme.nmap.org
 ## 📁 Repository Structure
 
 ```
